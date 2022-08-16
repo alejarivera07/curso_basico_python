@@ -23,3 +23,4 @@ elif opcion == "3":
     conversor("mexicanos", 24)
 else:
     print('Ingresa una opción correcta por favor')
+#conversor con función para no repetir código
