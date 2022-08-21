@@ -1,3 +1,4 @@
+## juego para adivinar un número 
 import random
 
 
@@ -7,11 +8,10 @@ def run():
     while numero_elegido != numero_aleatorio:
         if numero_elegido < numero_aleatorio:
             print('Busca un número más grande')
-            numero_elegido = int(input('Elije otro número: '))
         else:
             print('Busca un número menor')
-            ## esto para que vuelva a elegir un número 
-            numero_elegido = int(input('Elije otro número: '))
+        ## esto para que vuelva a elegir un número 
+        numero_elegido = int(input('Elije otro número: '))
     print('¡Ganaste!')
 
 
